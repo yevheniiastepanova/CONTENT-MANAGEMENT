@@ -332,13 +332,13 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
           >
             SOCIAL MEDIA <br /> CONTENT &amp; MANAGEMENT
           </motion.h1>
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-white/78 md:text-2xl">
+<span className="block text-white font-semibold text-xl md:text-3xl leading-snug">
   I create content that brings real clients to your business.
-  <br />
-  <span className="block mt-2 text-white/60">
-    Video-first content and strategy that turns attention into results.
-  </span>
-</p>
+</span>
+
+<span className="block mt-2 text-white/60">
+  Video-first content and strategy that turns attention into results.
+</span>
 
           <div className="relative mx-auto mt-10 flex max-w-3xl justify-center">
             <div className="absolute inset-x-[-10%] bottom-0 h-56 bg-[radial-gradient(ellipse_at_center,rgba(150,180,255,.22),transparent_60%)] blur-3xl" />
