@@ -443,7 +443,7 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
         </div>
 
         <p className="mt-8 text-2xl text-white md:mt-12 md:text-3xl">
-          Website design starting from $500
+          Website design & development starting from $500
         </p>
 
         <p className="mt-3 text-base text-white/75 md:text-lg">
