@@ -415,7 +415,7 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
         <div className="mx-auto mt-6 max-w-sm text-left text-base text-white/85 md:text-lg">
           <div className="space-y-3 md:hidden">
             {[
-              'Custom landing page design',
+              'Custom website design & development',
               'Clean, modern, user-friendly UI',
               'Mobile-optimized experience',
               'Integration with your content',
