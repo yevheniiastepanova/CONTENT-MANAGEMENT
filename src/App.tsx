@@ -429,7 +429,7 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
 
           <div className="hidden space-y-6 md:block">
             {[
-              'Custom landing page design',
+              'Custom website design & development',
               'Clean, modern, user-friendly UI',
               'Mobile-optimized experience',
               'Integration with your content',
@@ -699,7 +699,7 @@ function WebsitePage({ onNavigate }: { onNavigate: (page: string) => void }) {
             <h3 className="text-center font-serif text-3xl">What You Get</h3>
 
             <ul className="mt-6 space-y-4 text-lg text-white/85">
-              <li className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 rounded-full bg-white/80" />Custom landing page tailored to your brand</li>
+              <li className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 rounded-full bg-white/80" />Custom website tailored to your brand and business goals</li>
               <li className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 rounded-full bg-white/80" />Clean, premium visual design</li>
               <li className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 rounded-full bg-white/80" />Mobile-optimized layout</li>
               <li className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 rounded-full bg-white/80" />Clear sections for services, content, and contact</li>
