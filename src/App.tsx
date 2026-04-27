@@ -608,7 +608,7 @@ function PackageDetailPage({ kind, onNavigate }: { kind: string; onNavigate: (pa
       title: 'Scale Your Business With Content + Ads',
       subtitle:
         'Combine strong content with targeted ads to reach more people and grow faster.',
-      bullets: ['Everything in "Content + Page Management" package', 'Ad campaign setup (Meta / Instagram)', 'Ad management', 'Content optimized for ads', 'Strategy support'],
+      bullets: ['Everything in "Content + Page Management" package', 'Ad campaign setup (Meta / Instagram)', 'Ad management', 'Content optimized for ads', 'Audience targeting and growth strategy to reach the right people and grow faster', 'Ad budget is separate and depends on your goals', 'Combining everything into one system makes your growth more efficient and cost-effective'],
       body: 'Most businesses I work with struggle with consistency and visibility. This system solves both — so you can focus on running your business while your content and ads bring attention and customers. This package is for businesses that want faster and more predictable growth. Content builds your presence. Ads amplify it. Ad budget is separate and depends on your goals.',
       support: 'Content attracts attention. Ads bring it to the right people.',
     };
