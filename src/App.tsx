@@ -100,6 +100,8 @@ const packages = [
       'Ad management',
       'Content optimized for ads',
       'Strategy support',
+      'Most businesses we work with struggle with consistency and visibility.',
+      'This system solves both — so you can focus on running your business while your content and ads bring attention and customers.',
     ],
     cta: 'Learn More',
     featured: false,
