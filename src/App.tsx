@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Play, Camera, Megaphone, Globe, Sparkles, TrendingUp } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const portfolioData = {
   restaurants: [
@@ -365,23 +366,49 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
           ))}
         </section>
 
-      <div className="mt-12 text-center">
+<motion.div
+  className="mt-12 text-center"
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+>
   <p className="text-lg text-white/70">
     Not sure which package fits your business?
   </p>
 
-  <button
-    onClick={() => window.open('https://wa.me/4709297090?text=Hi%2C%20I%20saw%20your%20website.%20Can%20you%20recommend%20the%20best%20package%20for%20my%20business%3F', '_blank')}
-    className="mt-6 inline-flex items-center gap-3 rounded-full border border-white/20 px-8 py-3 text-lg text-white transition-all duration-300 hover:border-white/40 hover:bg-white/10 hover:scale-105"
+  <motion.button
+    onClick={() =>
+      window.open(
+        'https://wa.me/4709297090?text=Hi%2C%20I%20saw%20your%20website.%20Can%20you%20recommend%20the%20best%20package%20for%20my%20business%3F',
+        '_blank'
+      )
+    }
+    className="mt-6 inline-flex items-center gap-3 rounded-full border border-blue-200/40 px-8 py-3 text-lg text-white 
+    bg-blue-400/10 
+    shadow-[0_0_25px_rgba(120,160,255,0.25)] 
+    transition-all duration-300"
+    
+    initial={{ scale: 0.95, opacity: 0 }}
+    animate={{ scale: 1, opacity: 1 }}
+    transition={{ delay: 0.3, duration: 0.5 }}
+    
+    whileHover={{ scale: 1.07 }}
+    whileTap={{ scale: 0.96 }}
   >
     <span>Get a recommendation</span>
-    <span className="text-xl">→</span>
-  </button>
+    <motion.span
+      className="text-xl"
+      animate={{ x: [0, 6, 0] }}
+      transition={{ repeat: Infinity, duration: 1.5 }}
+    >
+      →
+    </motion.span>
+  </motion.button>
 
   <p className="mt-4 text-sm text-white/50">
     Quick message. No pressure — I’ll guide you based on your goals.
   </p>
-</div>
+</motion.div>
 
         <section className="mt-10 text-center">
           <p className="text-2xl text-white/84 md:text-3xl">Consistent video content = consistent customer flow.</p>
