@@ -408,7 +408,11 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
   </motion.button>
 
   <p className="mt-4 text-sm text-white/50">
-    Quick message. No pressure — I’ll guide you based on your goals.
+    Quick message. No pressure — I’ll guide you to what actually works for your business.
+  </p>
+
+  <p className="mt-2 text-xs text-white/40">
+    Every business is different — I’ll recommend an approach that fits your goals and budget.
   </p>
 </motion.div>
 
