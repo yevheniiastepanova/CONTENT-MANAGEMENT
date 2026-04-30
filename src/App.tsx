@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Play, Camera, Megaphone, Globe, Sparkles, TrendingUp } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 const portfolioData = {
   restaurants: [
@@ -368,9 +367,10 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
 
 <motion.div
   className="mt-12 text-center"
-  initial={{ opacity: 0, y: 30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, ease: 'easeOut' }}
+  initial={{ opacity: 0, y: 35 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, amount: 0.4 }}
+  transition={{ duration: 0.7, ease: 'easeOut' }}
 >
   <p className="text-lg text-white/70">
     Not sure which package fits your business?
@@ -386,16 +386,18 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
     className="mt-6 inline-flex items-center gap-3 rounded-full border border-blue-200/40 px-8 py-3 text-lg text-white 
     bg-blue-400/10 
     shadow-[0_0_25px_rgba(120,160,255,0.25)] 
-    transition-all duration-300"
-    
+    transition-all duration-300 
+    hover:bg-blue-400/20 
+    hover:shadow-[0_0_45px_rgba(120,160,255,0.45)]"
     initial={{ scale: 0.95, opacity: 0 }}
-    animate={{ scale: 1, opacity: 1 }}
-    transition={{ delay: 0.3, duration: 0.5 }}
-    
+    whileInView={{ scale: 1, opacity: 1 }}
+    viewport={{ once: true }}
+    transition={{ delay: 0.25, duration: 0.5 }}
     whileHover={{ scale: 1.07 }}
     whileTap={{ scale: 0.96 }}
   >
     <span>Get a recommendation</span>
+
     <motion.span
       className="text-xl"
       animate={{ x: [0, 6, 0] }}
@@ -409,6 +411,13 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
     Quick message. No pressure — I’ll guide you based on your goals.
   </p>
 </motion.div>
+
+
+
+
+
+
+
 
         <section className="mt-10 text-center">
           <p className="text-2xl text-white/84 md:text-3xl">Consistent video content = consistent customer flow.</p>
