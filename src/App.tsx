@@ -365,6 +365,24 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
           ))}
         </section>
 
+      <div className="mt-12 text-center">
+  <p className="text-lg text-white/70">
+    Not sure which package fits your business?
+  </p>
+
+  <button
+    onClick={() => window.open('https://wa.me/1234567890?text=Hi%2C%20I%20saw%20your%20website.%20Can%20you%20recommend%20the%20best%20package%20for%20my%20business%3F', '_blank')}
+    className="mt-6 inline-flex items-center gap-3 rounded-full border border-white/20 px-8 py-3 text-lg text-white transition-all duration-300 hover:border-white/40 hover:bg-white/10 hover:scale-105"
+  >
+    <span>Get a recommendation</span>
+    <span className="text-xl">→</span>
+  </button>
+
+  <p className="mt-4 text-sm text-white/50">
+    Quick message. No pressure — I’ll guide you based on your goals.
+  </p>
+</div>
+
         <section className="mt-10 text-center">
           <p className="text-2xl text-white/84 md:text-3xl">Consistent video content = consistent customer flow.</p>
         </section>
