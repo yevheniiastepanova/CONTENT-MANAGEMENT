@@ -62,11 +62,11 @@ const packages = [
     price: '$500-$900',
     subtitle: '/ month',
     features: [
-      'Up to 10 High-Quality Reels',
-      '1 shoot session',
-      'Clean editing',
-      'A few supporting photos (for feed & branding)',
-      'No Posting or management — you get polished content ready to post',
+      'Content designed to attract attention',
+      'Clean, professional editing',
+      'Ready-to-post videos for your brand',
+      'Supporting visuals for your feed and branding',
+      'Perfect if you just need high-quality content and want to stay consistent.',
     ],
     cta: 'Learn More',
     featured: false,
@@ -78,12 +78,10 @@ const packages = [
     price: '$1,600',
     subtitle: '/ month',
     features: [
-      '16 High-Quality Reels (consistent weekly content)',
-      '1–2 shoot sessions',
-      'Trend-focused editing',
-      'Captions & Content planning',
+      'Consistent weekly content (Reels)',
+      'Trend-focused editing to maximize reach and engagement',
+      'Full content planning & captions',
       'Posting up to 5-6x/week',
-      'A few supporting photos (for feed & branding)',
       'I handle everything so you can focus on your business. You do not need to think about what to post, when to post, or how to stay consistent',
     ],
     cta: 'Learn More',
@@ -96,8 +94,8 @@ const packages = [
     subtitle: '/ month',
     features: [
       'Everything in "Content + Page Management" package',
-      'Ad campaign setup (Meta / Instagram)',
-      'Ad management',
+      'Ad strategy & campaign setup (Meta / Instagram)',
+      'Ongoing ad management',
       'Content optimized for ads',
       'Audience targeting and growth strategy to reach the right people and grow faster',
       `Ad budget is separate and depends on your goals`,
@@ -412,7 +410,7 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
   </p>
 
   <p className="mt-2 text-xs text-white/40">
-    Every business is different — I’ll recommend an approach that fits your goals and budget.
+    Not every business needs the full package — I’ll help you choose what actually makes sense.
   </p>
 </motion.div>
 
