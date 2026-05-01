@@ -333,9 +333,9 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
             SOCIAL MEDIA <br /> CONTENT &amp; MANAGEMENT
           </motion.h1>
 <p className="mx-auto mt-6 max-w-3xl text-lg text-white/78 md:text-2xl">
-  <span className="block text-white font-semibold md:text-3xl">
-  I create content that brings{" "}
-  <span className="text-blue-200">real clients</span> to your business.
+<span className="block text-white font-semibold md:text-3xl">
+  I help local businesses get{" "}
+  <span className="text-blue-200">consistent clients</span> through short-form video.
 </span>
 
   <span className="block mt-2 text-white/60">
