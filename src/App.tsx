@@ -404,6 +404,10 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
       →
     </motion.span>
   </motion.button>
+<p className="mt-4 text-sm text-white/50">
+Limited spots each month to keep quality high.
+  </p>
+
 
   <p className="mt-4 text-sm text-white/50">
     Quick message. No pressure — I’ll guide you to what actually works for your business.
@@ -634,7 +638,11 @@ function PackageDetailPage({ kind, onNavigate }: { kind: string; onNavigate: (pa
         title: 'Clean Content That Elevates Your Brand',
         subtitle:
           'High-quality video content designed to make your business stand out and look professional online.',
-        bullets: ['Up to 10 High-Quality Reels', '1 on-site shoot session', 'Clean, professional editing', 'A few supporting photos for feed & branding'],
+        bullets: ['Content designed to attract attention',
+          'Clean, professional editing',
+          'Ready-to-post videos for your brand',
+          'Supporting visuals for your feed & branding',
+        ],
         body: 'This package is perfect if you need strong, visually appealing content but prefer to manage your page yourself. You receive polished content that is ready to post and built to attract attention.',
         support: 'You get content that looks premium — ready to post and built to elevate your brand.',
       };
@@ -647,12 +655,12 @@ function PackageDetailPage({ kind, onNavigate }: { kind: string; onNavigate: (pa
         subtitle:
           'This is not just content — this is a complete system to grow your page and keep your business visible.',
         bullets: [
-          '16 High-Quality Reels (consistent weekly content)',
-          '1–2 shoot sessions',
-          'Trend-focused editing',
+          'Consistent weekly content (Reels)',
+          'Full content planning & captions',
+          'I manage your page for you',
+          'Content designed to attract new customers',
           'Content planning',
           'Posting up to 5–6x/week',
-          'A few supporting photos for feed & branding',
         ],
         body: 'This is a done-for-you content and management solution. You do not need to think about what to post, when to post, or how to stay consistent — I handle everything for you.',
         support: 'I handle everything so you can focus on your business.',
@@ -664,7 +672,14 @@ function PackageDetailPage({ kind, onNavigate }: { kind: string; onNavigate: (pa
       title: 'Scale Your Business With Content + Ads',
       subtitle:
         'Combine strong content with targeted ads to reach more people and grow faster.',
-      bullets: ['Everything in "Content + Page Management" package', 'Ad campaign setup (Meta / Instagram)', 'Ad management', 'Content optimized for ads', 'Audience targeting and growth strategy to reach the right people and grow faster', 'Ad budget is separate and depends on your goals', 'Combining everything into one system makes your growth more efficient and cost-effective'],
+      bullets: ['Everything in Content + Management',
+        'Ad campaign setup (Meta / Instagram)',
+        'Ongoing ad management',
+        'Content optimized for ads',
+        'Targeting the right audience for your business',
+        'Ad budget is separate and depends on your goals',
+        'Combining everything into one system makes your growth more efficient and cost-effective',
+      ],
       body: 'Most businesses I work with struggle with consistency and visibility. This system solves both — so you can focus on running your business while your content and ads bring attention and customers. This package is for businesses that want faster and more predictable growth. Content builds your presence. Ads amplify it. Ad budget is separate and depends on your goals.',
       support: 'Content attracts attention. Ads bring it to the right people.',
     };
