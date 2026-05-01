@@ -334,12 +334,12 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
           </motion.h1>
 <p className="mx-auto mt-6 max-w-3xl text-lg text-white/78 md:text-2xl">
 <span className="block text-white font-semibold md:text-3xl">
-  I help local businesses get{" "}
-  <span className="text-blue-200">consistent clients</span> through short-form video.
+  I help local businesses attract{" "}
+  <span className="text-blue-200">consistent clients</span> through short-form video
 </span>
 
   <span className="block mt-2 text-white/60">
-    Video-first content and strategy that turns attention into results.
+    Video-first content and strategy that turns attention into results
   </span>
 </p>
 
@@ -353,7 +353,7 @@ function HomePage({ onNavigate }: { onNavigate: (page: string, data?: any) => vo
           </div>
 
           <p className="mx-auto mt-8 max-w-5xl text-2xl text-white/85 md:text-4xl">
-            Short-form video (Reels) is currently the most powerful way to reach new customers.
+            Short-form video (Reels) is currently the most powerful way to reach new customers
           </p>
         </section>
 
