@@ -66,7 +66,7 @@ const packages = [
       'Clean, professional editing',
       'Ready-to-post videos for your brand',
       'Supporting visuals for your feed and branding',
-      'Perfect if you just need high-quality content and want to stay consistent.',
+      'Perfect if you just need high-quality content and want to stay consistent',
     ],
     cta: 'Learn More',
     featured: false,
